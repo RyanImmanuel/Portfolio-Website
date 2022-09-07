@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <style>
+      body {
+        font-size: large;
+        padding: 0 3em;
+        background-color: #e3e0cf;
+        color: #5b625e;
+      }
+      h1,
+      h3 {
+        text-align: center;
+      }
+      h2 {
+        color: #598f6d;
+      }
+      section > span {
+        font-size: large;
+      }
+      /* section > span {
+        margin-top: 0%;
+        margin-bottom: 100%;
+      } */
+      ul {
+        margin-bottom: 0%;
+        font-size: large;
+      }
+      dl {
+        margin-bottom: 0%;
+      }
+      dl > dd {
+        margin-left: 20px;
+        font-size: large;
+      }
+      .rights {
+        font-size: x-large;
+        text-align: center;
+      }
+      .Comments {
+        text-align: center;
+      }
+    </style>
+
+    <title>Resume</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-branding">Resume</a>
+        <ul class="nav-menu" style="margin-top: 8px">
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <script src="resume.js"></script>
+    <link rel="stylesheet" href="style.css" /> <br /><br />
+    <h1 style="color: #598f6d">Ryan Immanuel</h1>
+    <h3>Information Technology | 8660892348 | ryuimm.7@gmail.com</h3>
+    <br />
+    <hr />
+
+    <section>
+      <h2>Profile</h2>
+      <span
+        >I am a curious and creative programmer who offers analytical skills and
+        teamwork abilities.
+      </span>
+    </section>
+    <br />
+    <br />
+    <hr />
+    <section>
+      <h2>Education</h2>
+      <span
+        ><ul>
+          <li>
+            MSRIT (2nd year <abbr title="Bachelor Of Engineering">B.E</abbr> )
+          </li>
+          <li>CMR NPS (Schooling)</li>
+        </ul>
+      </span>
+    </section>
+    <br />
+    <br />
+    <hr />
+    <section>
+      <a name="skills"></a>
+      <h2>Skills</h2>
+      <dl>
+        <dd>Languages: Python, C, Java</dd>
+        <dd>Technologies: ARM, Git, Github</dd>
+      </dl>
+    </section>
+    <br />
+    <br />
+    <hr />
+    <section>
+      <h2>Experience</h2>
+      <dl>
+        <dd>Project: Which Celeb do I look like ?</dd>
+        <dd>Description: A project that involves ML and Web Dev</dd>
+      </dl>
+    </section>
+    <br />
+    <br />
+    <hr />
+    <section>
+      <a name="contact"></a>
+      <h2>Contact</h2>
+      <span
+        ><a href="https://www.linkedin.com/in/ryan-immanuel-493263235"
+          >Linkedin</a
+        >
+        | <a href="https://github.com/RyanImmanuel">Github</a></span
+      >
+    </section>
+    <br />
+    <br />
+    <hr />
+    <section class="Comments">
+      <h2>Comments</h2>
+
+      <input
+        type="text"
+        style="width: 250px; height: 25px; text-align: center"
+        placeholder="enter your comments"
+        id="txtName"
+      />
+      <br /><br />
+      <div>
+        <button style="background-color: #8cc1a0" id="btnPress">Enter</button>
+      </div>
+      <br />
+      <section id="ThankYou"></section>
+    </section>
+    <br />
+    <br /><br /><br /><br /><br />
+    <section class="rights">
+      &lt;&lt;&lt; &copy;Ryan Immanuel 2022&gt;&gt;&gt;
+    </section>
+  </body>
+</html>
